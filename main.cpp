@@ -154,13 +154,13 @@ int main()
     srand(time(0));
     //Window that we can play the game in
     sf::RenderWindow window(sf::VideoMode(w, h), "Snake Game");
-   
+    
     //Textures load an image into the GPU Memory
     sf::Texture t1, t2, t3,t4;
     t1.loadFromFile("image/white.png");
     t2.loadFromFile("image/red.png");
-    t3.loadFromFile("image/banana.png");
-    t4.loadFromFile("image/apple.png");
+    t3.loadFromFile("image/yellow.png");
+    t4.loadFromFile("image/green.png");
     
     //Sprite has physical dimmensions that can be set in
     //coordinate system, setPosition(x,y), and drawn on screen
